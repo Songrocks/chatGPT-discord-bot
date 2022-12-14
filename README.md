@@ -17,16 +17,11 @@
 
 ### Chat
 
-![image](https://user-images.githubusercontent.com/89479282/206497774-47d960cd-1aeb-4fba-9af5-1f9d6ff41f00.gif)
-
 ### Mode
 
 * `public mode (default)`  the bot directly reply on the channel
-
-  ![image](https://user-images.githubusercontent.com/89479282/206565977-d7c5d405-fdb4-4202-bbdd-715b7c8e8415.gif)
 * `private mode` the bot's reply can only be seen by who use the command
 
-  ![image](https://user-images.githubusercontent.com/89479282/206565873-b181e600-e793-4a94-a978-47f806b986da.gif)
 
 # Setup
 
@@ -42,19 +37,15 @@
 2. Build a Discord bot under the application
 3. Get the token from bot setting
 
-   ![image](https://user-images.githubusercontent.com/89479282/205949161-4b508c6d-19a7-49b6-b8ed-7525ddbef430.png)
 4. **Change the file name of `config.dev.json` to `config.json`**
 5. Store the token to `config.json` under the `discord_bot_token`
 
-   ![image](https://user-images.githubusercontent.com/89479282/207357762-94234aa7-aa55-4504-8dfd-9c68ae23a826.png)
    
 5. Turn MESSAGE CONTENT INTENT `ON`
 
-   ![image](https://user-images.githubusercontent.com/89479282/205949323-4354bd7d-9bb9-4f4b-a87e-deb9933a89b5.png)
    
 6. Invite your bot to your server via OAuth2 URL Generator
 
-   ![image](https://user-images.githubusercontent.com/89479282/205949600-0c7ddb40-7e82-47a0-b59a-b089f929d177.png)
 
 ## Desktop environments
 
@@ -86,7 +77,6 @@ Go to https://chat.openai.com/chat log in
 
 2. Open `Application` tab > Cookies
 
-    ![image](https://user-images.githubusercontent.com/36258159/205494773-32ef651a-994d-435a-9f76-a26699935dac.png)
 
 3. Copy the value for `__Secure-next-auth.session-token` from cookies and paste it into `config.json` under `session_token`
 
@@ -111,4 +101,3 @@ Go to https://chat.openai.com/chat log in
 * All the text in the file will be fired as a prompt to the bot  
 
 ---
-#### Big thanks to Reverse Engineered ChatGPT by OpenAI [here](https://github.com/acheong08/ChatGPT)
